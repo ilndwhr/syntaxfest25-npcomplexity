@@ -390,7 +390,7 @@ DHARMa::plotResiduals(sim_m0d_tmb, form = data_sampled$mod_type_2_num) # plot re
 # model summary
 summary(m0d_tmb)
 output <- capture.output(summary(m0d_tmb))
-cat("model_summary_m0d_tmb", output, file="./results/20250304_d/20250304c_summary_m0d_tmb.txt", sep="\n", append=TRUE)
+cat("model_summary_m0d_tmb", output, file="./results/20250304_d/20250304d_summary_m0d_tmb.txt", sep="\n", append=TRUE)
 
 m0e_tmb <- glmmTMB::glmmTMB(mod_type_2_num ~ year_cent
                             + dep_num_sc
@@ -440,7 +440,7 @@ DHARMa::plotResiduals(sim_m0f_tmb, form = data_sampled$mod_type_2_num) # plot re
 # model summary
 summary(m0f_tmb)
 output <- capture.output(summary(m0f_tmb))
-cat("model_summary_m0f_tmb", output, file="./results/20250304_d/20250304c_summary_m0f_tmb.txt", sep="\n", append=TRUE)
+cat("model_summary_m0f_tmb", output, file="./results/20250304_d/20250304d_summary_m0f_tmb.txt", sep="\n", append=TRUE)
 
 # test interaction dep len * deprel: convergence issue
 m0g_tmb <- glmmTMB::glmmTMB(mod_type_2_num ~ year_cent
