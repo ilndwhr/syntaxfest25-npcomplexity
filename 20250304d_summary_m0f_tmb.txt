@@ -1,0 +1,36 @@
+model_summary_m0f_tmb
+ Family: binomial  ( logit )
+Formula:          
+mod_type_2_num ~ year_cent + dep_num_sc * deprel_F + dep_len_sc +  
+    noun_len_sc + det_F + sent_len_sc + (1 | author) + (1 | journal) +  
+    (1 + noun_len_sc | noun)
+Data: data_sampled
+
+     AIC      BIC   logLik deviance df.resid 
+ 17737.9  17859.7  -8853.0  17705.9    14918 
+
+Random effects:
+
+Conditional model:
+ Groups  Name        Variance Std.Dev. Corr  
+ author  (Intercept) 0.03088  0.1757         
+ journal (Intercept) 0.02495  0.1579         
+ noun    (Intercept) 0.99977  0.9999         
+         noun_len_sc 0.08761  0.2960   -0.74 
+Number of obs: 14934, groups:  author, 2734; journal, 7; noun, 4119
+
+Conditional model:
+                       Estimate Std. Error z value Pr(>|z|)    
+(Intercept)           0.8507122  0.0848494  10.026  < 2e-16 ***
+year_cent             0.0065527  0.0008198   7.993 1.32e-15 ***
+dep_num_sc            0.3774371  0.0434191   8.693  < 2e-16 ***
+deprel_F2            -0.6571099  0.0661427  -9.935  < 2e-16 ***
+deprel_F3            -0.4392070  0.0574477  -7.645 2.08e-14 ***
+dep_len_sc           -0.7803028  0.0274004 -28.478  < 2e-16 ***
+noun_len_sc          -0.1946425  0.0291716  -6.672 2.52e-11 ***
+det_F2               -0.8732242  0.0454927 -19.195  < 2e-16 ***
+sent_len_sc          -0.1365095  0.0209557  -6.514 7.31e-11 ***
+dep_num_sc:deprel_F2  0.0465497  0.0678706   0.686    0.493    
+dep_num_sc:deprel_F3 -0.0007690  0.0553544  -0.014    0.989    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
