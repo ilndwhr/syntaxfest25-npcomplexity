@@ -1,7 +1,7 @@
 # rsc-np_complexity_mod_type
 Corpus Analysis on RSC: Interplay of NP Complexity and Modification Type
 
-This repository contains code and (preprocessed data) of a corpus analysis on the Royal Society Corpus (RSC, Fischer et al. 2020), a corpus containing the publications of the *Philosophical Transactions of the Royal Society of London*. We investigated the role of noun phrase (NP) complexity on modification type (post-modification vs. pre-modification).
+This repository contains code and (preprocessed) data of a corpus analysis on the Royal Society Corpus (RSC, Fischer et al. 2020), a corpus containing the publications of the *Philosophical Transactions of the Royal Society of London*. We investigated the role of noun phrase (NP) complexity on modification type (post-modification vs. pre-modification).
 
 ## Research Question
 Are more complex noun phrases (NPs) more likely to be post-modified than pre-modified?
