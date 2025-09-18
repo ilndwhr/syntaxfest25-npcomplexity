@@ -1,7 +1,8 @@
-# rsc-np_complexity_mod_type
-Corpus Analysis on RSC: Interplay of NP Complexity and Modification Type
+# The Interplay of Noun Phrase Complexity and Modification Type in Scientific Writing
+Contribution for the Third Workshop on Quantitative Syntax (SyntaxFest 2025)
 
-This repository contains code and (preprocessed) data of a corpus analysis on the Royal Society Corpus (RSC, Fischer et al. 2020), a corpus containing the publications of the *Philosophical Transactions of the Royal Society of London*. We investigated the role of noun phrase (NP) complexity on modification type (post-modification vs. pre-modification).
+This repository contains the code used for the paper *The Interplay of Noun Phrase Complexity and Modification Type in Scientific Writing*, which was published in the proceedings of the Third Workshop on Quantitative Syntax (SyntaxFest 2025). It is an analysis using the Royal Society Corpus (RSC, Fischer et al. 2020), a corpus containing the publications of the *Philosophical Transactions of the Royal Society of London*. We investigated the role of noun phrase (NP) complexity on modification type (post-modification vs. pre-modification).
+The code in this repository was used for data preprocessing and analysis.
 
 ## Research Question
 Are more complex noun phrases (NPs) more likely to be post-modified than pre-modified?
@@ -24,5 +25,24 @@ Joakim Nivre, Daniel Zeman, Filip Ginter, and Francis Tyers. 2017. Universal Dep
 
 Peng Qi, Yuhao Zhang, Yuhui Zhang, Jason Bolton, and Christopher D. Manning. 2020. Stanza: A Pythonnatural language processing toolkit for many human languages. In *Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics:
 System Demonstrations*, pages 101–108, Online. Association for Computational Linguistics.
+
+## Citation
+
+Isabell Landwehr. 2025. The Interplay of Noun Phrase Complexity and Modification Type in Scientific Writing. In *Proceedings of the Third Workshop on Quantitative Syntax (QUASY, SyntaxFest 2025)*, pages 72–82, Ljubljana, Slovenia. Association for Computational Linguistics.
+
+```
+@inproceedings{landwehr-2025-interplay,
+    title = "The Interplay of Noun Phrase Complexity and Modification Type in Scientific Writing",
+    author = "Landwehr, Isabell",
+    editor = "Chen, Xinying  and
+      Wang, Yaqin",
+    booktitle = "Proceedings of the Third Workshop on Quantitative Syntax (QUASY, SyntaxFest 2025)",
+    year = "2025",
+    address = "Ljubljana, Slovenia",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.quasy-1.10/",
+    pages = "72--82",
+}
+```
 
 
