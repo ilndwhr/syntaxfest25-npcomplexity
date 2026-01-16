@@ -1,7 +1,7 @@
 # The Interplay of Noun Phrase Complexity and Modification Type in Scientific Writing
 Contribution for the Third Workshop on Quantitative Syntax (SyntaxFest 2025)
 
-This repository contains the code used for the paper *The Interplay of Noun Phrase Complexity and Modification Type in Scientific Writing*, which was published in the proceedings of the Third Workshop on Quantitative Syntax (SyntaxFest 2025). It is an analysis using the Royal Society Corpus (RSC, Fischer et al. 2020), a corpus containing the publications of the *Philosophical Transactions of the Royal Society of London*. We investigated the role of noun phrase (NP) complexity on modification type (post-modification vs. pre-modification).
+This repository contains the code used for the paper *The Interplay of Noun Phrase Complexity and Modification Type in Scientific Writing*, which was published in the Proceedings of the Third Workshop on Quantitative Syntax (SyntaxFest 2025). It is an analysis using the Royal Society Corpus (RSC, Fischer et al. 2020), a corpus containing the publications of the *Philosophical Transactions of the Royal Society of London*. We investigated the role of noun phrase (NP) complexity on modification type (post-modification vs. pre-modification).
 The code in this repository was used for data preprocessing and analysis. Regression model summaries have been added as well.
 
 ## Research Question
